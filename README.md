@@ -7,7 +7,7 @@ LangGraph 기반의 에이전트 분기 구조와 FastAPI + Streamlit UI를 결�
 ---
 
 ## 프로젝트 구조
-
+```
 TRAVEL_AGENT/
 │
 ├── app/
@@ -38,7 +38,7 @@ TRAVEL_AGENT/
 ├── Makefile # 실행 명령 자동화
 ├── requirements.txt # 의존성 목록
 └── README.md # 프로젝트 설명 문서
-
+```
 ---
 
 ## 실행 방법
@@ -59,12 +59,14 @@ PYTHONPATH=. streamlit run app/frontend/ui.py # Streamlit UI 실행
 ```
 
 ### .env 환경 설정
+```
 NAVER_CLIENT_ID=xxxx
 NAVER_CLIENT_SECRET=xxxx
 GOOGLE_KEY_FILE=app/service/xxxx.json
 CAL_ID=your_calendar_id@group.calendar.google.com
 SENDER=youremail@gmail.com
 EMAIL_PASWORD=xxxxxx # Gmail OAuth2 토큰
+```
 
 ## 서비스 개요
 - 사용자 입력 기반으로 LLM 에이전트들이 순차적으로 동작
