@@ -137,6 +137,6 @@ EMAIL_PASWORD=xxxxxx # Gmail OAuth2 토큰
     - LangSmith 기반 품질 평가 및 피드백 저장 기능
 
 ## 참고 결과물
-- [부산_여행 일정 도우미.pdf](./부산_여행 일정 도우미.pdf): 실제 에이전트를 통해 생성된 여행 계획서
+- [부산_여행 일정 도우미.pdf](./assets/부산_여행%20일정%20도우미.pdf): 실제 에이전트를 통해 생성된 여행 계획서
 -  Google Calendar, Gmail, Streamlit 인터페이스까지 통합된 end-to-end 작동 결과
 
