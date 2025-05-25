@@ -93,7 +93,7 @@ EMAIL_PASWORD=xxxxxx # Gmail OAuth2 토큰
 - create_event, create_multiple_events, update_event, delete_event, list_events: Google Calendar API 연동
 - send_email_text: 여행 계획서를 HTML 이메일로 발송
 
-## ✅ 예시 사용 흐름
+## 예시 사용 흐름
 1. 사용자: “6월 12일부터 3박 4일간 제주도 여행, 맛집도 찾아줘”
 
 2. 시스템 흐름:
